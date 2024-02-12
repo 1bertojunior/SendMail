@@ -25,7 +25,7 @@ O SendMail é uma aplicação web de envio de e-mails. Com uma interface intuiti
 
 1. Configure um servidor web compatível com PHP.
 2. Faça o upload dos arquivos para o seu servidor.
-3. Configure as credenciais do servidor de e-mail em `config.php`.
+3. Configure as credenciais do servidor de e-mail em `send.php`.
 4. Acesse a aplicação através do navegador.
 
 ## Configuração do Servidor SMTP
@@ -39,6 +39,7 @@ $mail->Host = 'seu_servidor_smtp';
 $mail->Username = 'seu_nome_de_usuario_smtp';
 $mail->Password = 'sua_senha_smtp';
 $mail->Port = 'sua_porta_smtp';
+```
 
 ## Contribuições
 
